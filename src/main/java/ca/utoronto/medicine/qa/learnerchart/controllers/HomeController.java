@@ -16,6 +16,8 @@ public class HomeController {
     private OscePdfRepository repository;
     @GetMapping(path = "/")
     public String getHomePage(){
+
+        //System.out.println("java.library.path>>>>>>>>>>>>>>>>>>>>>>>>>>"+System.getProperty("java.library.path"));
         return "Hello World, New QA for New Learner Chart!";
     }
 
